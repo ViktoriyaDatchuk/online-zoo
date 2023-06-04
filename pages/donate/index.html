@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetStory</title>
+    <link rel="stylesheet" href="../../assets/style/normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="../../assets/icons/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="wrapper header__wrapper">
+            <div class="logo">
+                <a href="../main/index.html" class="logo__link">
+                    <h1 class="logo__text">PetStory online</h1>
+                </a>
+                <picture class="logo__icon">
+                    <source media="(max-width: 840px)" srcset="../../assets/icons/bamboo-small.svg">
+                    <img src="../../assets/icons/bamboo.svg" alt="bamboo">
+                </picture>
+            </div>
+            <nav class="header__navigatin navigation__size">
+                <ul class="navigation burger__navigation">
+                    <li class="navigation__link burger-nav">
+                        <div class="burger__logo">
+                            <a href="../main/index.html" class="logo__link">
+                                <h1 class="burger__logo__text">PetStory online</h1>
+                            </a>
+                            <img src="../../assets/icons/bamboo-orange.svg" alt="bamboo" class="burger__logo__icon">
+                        </div>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="../main/index.html" class="link burger__link">About</a>
+                    </li>
+                        <a href="#" class="link burger__link">Map</a>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="#" class="link burger__link">Zoos</a>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="#" class="link burger__link">Donate</a>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="#" class="link burger__link">Contact us</a>
+                    </li>
+                    <li class="navigation__link link__designed">
+                        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1" class="link burger__link">Designed by ©</a>
+                    </li>
+                </ul>
+                <div class="navigation-close">
+                    <span class="navigation-close-line"></span>
+                    <span class="navigation-close-line"></span>
+                </div>
+            </nav>
+            <div class="header-burger burger">
+                <span class="burger-line burger-line-first"></span>
+                <span class="burger-line burger-line-second"></span>
+                <span class="burger-line burger-line-third"></span>
+            </div>
+        </div>
+        <div class="blackout"></div>
+    </header>
+    <main>
+        <div class="panda"></div>
+        <section class="pick-and-feed">
+            <div class="wrapper pick-and-feed__wrapper">
+                <h3 class="pick-and-feed__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+                <p class="pick-and-feed__text">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+                <h3 class="pick-and-feed__title pick-and-feed__subtitle">Donation Information</h3>
+                <div class="pick-and-feed__content">
+                    <h2 class="content__title">Pick and feed a friend</h2>
+                    <p class="content__text">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                    <div class="counter-panda">
+                        <div class="amount__container">
+                            <div class="amount">4</div>
+                            <p class="counter-panda__discription">Panda diet for the day.</p>
+                        </div>
+                        <div>
+                            <img src="../../assets/icons/panda_widget1.svg" alt="panda" class="counter-panda__image">
+                        </div>
+                    </div>
+                    <p class="amount__amount">Amount</p>
+                    <div class="donation-amount__container">
+                        <div class="progress-bar__container">
+                            <div class="progress-bar">
+                                <input type="radio" name="progress-bar-amount" id="1" value="1" required class="progress-bar__point amount-5000">
+                                <label for="1" data-debt-amount="$5000" class="progress-bar__value amount-5000"></label>
+                                <input type="radio" name="progress-bar-amount" id="2" value="2" required class="progress-bar__point amount-2000">
+                                <label for="2" data-debt-amount="$2000" class="progress-bar__value amount-2000"></label>
+                                <input type="radio" name="progress-bar-amount" id="3" value="3" required class="progress-bar__point amount-1000">
+                                <label for="3" data-debt-amount="$1000" class="progress-bar__value amount-1000"></label>
+                                <input type="radio" name="progress-bar-amount" id="4" value="4" required class="progress-bar__point">
+                                <label for="4" data-debt-amount="$500" class="progress-bar__value"></label>
+                                <input type="radio" name="progress-bar-amount" id="5" value="5" required class="progress-bar__point">
+                                <label for="5" data-debt-amount="$250" class="progress-bar__value"></label>
+                                <input type="radio" name="progress-bar-amount" id="6" value="6" required checked class="progress-bar__point">
+                                <label for="6" data-debt-amount="$100" class="progress-bar__value"></label>
+                                <input type="radio" name="progress-bar-amount" id="7" value="7" required class="progress-bar__point">
+                                <label for="7" data-debt-amount="$50" class="progress-bar__value"></label>
+                                <input type="radio" name="progress-bar-amount" id="8" value="8" required class="progress-bar__point">
+                                <label for="8" data-debt-amount="$25" class="progress-bar__value"></label>
+                            </div>
+                        </div>
+                        <div class="dollar__container">
+                            <input type="number" name="donation-amount" max="9999" oninput="if (value.length>= 5) value = value.slice (0,4)" placeholder="Another amount" class="another-amount">
+                            <svg width="10" height="20" viewBox="0 0 10 20" xmlns="http://www.w3.org/2000/svg" class="dollar__image">
+                                <path d="M8.07792 6.25974C7.66234 5.87013 7.24675 5.58442 6.85714 5.37662C6.46753 5.19481 6.02597 5.09091 5.53247 5.09091C4.96104 5.09091 4.54545 5.22078 4.25974 5.45455C3.97403 5.68831 3.81818 6.07792 3.81818 6.5974C3.81818 6.96104 3.97403 7.2987 4.28571 7.53247C4.5974 7.79221 4.96104 8.02597 5.42857 8.25974C5.8961 8.49351 6.38961 8.72727 6.90909 8.98701C7.42857 9.24675 7.92208 9.53247 8.38961 9.8961C8.85714 10.2597 9.22078 10.6753 9.53247 11.1948C9.84416 11.7143 10 12.3377 10 13.0649C10 14.1818 9.68831 15.1429 9.09091 15.9481C8.49351 16.7532 7.55844 17.2727 6.36364 17.5584V20H4.1039V17.6623C3.42857 17.5844 2.7013 17.4026 1.94805 17.0909C1.19481 16.7792 0.545455 16.3896 0 15.8961L1.50649 13.5844C2.1039 14.026 2.67532 14.3636 3.19481 14.5974C3.74026 14.8312 4.28571 14.9351 4.83117 14.9351C5.48052 14.9351 5.97403 14.8052 6.25974 14.5455C6.57143 14.2857 6.72727 13.8701 6.72727 13.3247C6.72727 12.9091 6.57143 12.5714 6.25974 12.2857C5.94805 12 5.58442 11.7403 5.11688 11.4805C4.64935 11.2208 4.15584 10.961 3.63636 10.7013C3.11688 10.4416 2.62338 10.1299 2.15584 9.76623C1.68831 9.4026 1.32468 8.98701 1.01299 8.49351C0.701299 8 0.545455 7.42857 0.545455 6.72727C0.545455 5.58442 0.857143 4.62338 1.48052 3.87013C2.1039 3.11688 2.98701 2.62338 4.07792 2.41558V0H6.33766V2.36364C7.09091 2.46753 7.74026 2.7013 8.31169 3.03896C8.88312 3.37662 9.37662 3.79221 9.84416 4.28571L8.07792 6.25974Z"/>
+                            </svg>
+                        </div>
+                        <div class="radio__container">
+                            <div class="form__radio">
+                                <input type="radio" id="Monthly" name="radio" value="1">
+                                <label for="Monthly">Monthly</label>
+                            </div>
+                            <div class="form__radio">
+                                <input type="radio" id="Once" name="radio" value="2" checked>
+                                <label for="Once">Once</label>
+                            </div>
+                        </div>
+                        <button class="button pick-and-feed__button">Feed a friend now</button>
+                        <p class="share__text">Share with your friends on social networks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <div class="footer__subscribe">
+                <div class="logo footer__logo">
+                    <a href="../main/index.html" class="logo__link">
+                        <p class="logo__text footer__logo__text">PetStory online</p>
+                    </a>
+                    <img src="../../assets/icons/bamboo.svg" alt="bamboo" class="logo__icon footer__logo__icon">
+                </div>
+                <form action="/catalog" class="footer__form">
+                    <label for="email" class="email__title">Subscribe to our news</label>
+                    <input name= "email" type="email" required placeholder="Enter your email" id="email" class="email__input">
+                    <input type="button" value="Submit" class="email__submit">
+                </form>
+            </div>
+            <button class="button footer__button" onclick="location.href='../../pages/donate/index.html'">Donate for volunteers</button>
+            <div class="footer__info">
+                <div class="footer__social-list">
+                    <ul class="social-list">
+                        <li class="social-list__link">
+                            <a href="https://ru-ru.facebook.com/" class="social__link">
+                                <div class="icon__background">
+                                    <img src="../../assets/icons/facebook-icon.svg" alt="facebook">
+                                </div>
+                                <p class="icon__text">Facebook</p>
+                            </a>
+                        </li>
+                        <li class="social-list__link">
+                            <a href="https://twitter.com/?lang=ru" class="social__link">
+                                <div class="icon__background">
+                                    <img src="../../assets/icons/twitter-icon.svg" alt="twitter">
+                                </div>
+                                <p class="icon__text">Twitter</p>
+                            </a>
+                        </li>
+                        <li class="social-list__link">
+                            <a href="https://www.instagram.com/" class="social__link">
+                                <div class="icon__background">
+                                    <img src="../../assets/icons/instagram-icon.svg" alt="instagram">
+                                </div>
+                                <p class="icon__text">Instagram</p>
+                            </a>
+                        </li>
+                        <li class="social-list__link">
+                            <a href="https://www.youtube.com/" class="social__link">
+                                <div class="icon__background">
+                                    <img src="../../assets/icons/youtube-icon.svg" alt="youtube">
+                                </div>
+                                <p class="icon__text">YouTube</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="header__navigatin footer__navigation">
+                    <ul class="navigation footer__nav">
+                        <li class="navigation__link">
+                            <a href="../main/index.html" class="link">About</a>
+                        </li>
+                        <li class="navigation__link">
+                            <a href="#" class="link">Map</a>
+                        </li>
+                        <li class="navigation__link">
+                            <a href="#" class="link">Zoos</a>
+                        </li>
+                        <li class="navigation__link">
+                            <a href="#" class="link">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__discription">
+                    <p class="footer__discription__text text__first-line">Designed by Alisa Samborskaya</p>
+                    <p class="footer__discription__text">©RSSchool & ©Yem Digital 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
